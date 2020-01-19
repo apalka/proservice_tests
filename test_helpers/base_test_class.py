@@ -10,7 +10,7 @@ class BaseTestClass(unittest.TestCase):
     def setUp(self):
         self.base_url = 'https://sti24-qvalue.xstaging.devfin24.pl/'
         self.registration_url = self.base_url + 'client/register'
-        self.driver = webdriver.Chrome(executable_path=r"/Users/aleksandrapalka/drivers/chromedriver")
+        self.driver = webdriver.Chrome("drivers/chromedriver")
         self.driver.maximize_window()
 
     @classmethod
