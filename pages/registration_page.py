@@ -8,10 +8,10 @@ class RegistrationPageClass(BasePage):
         """Register user using given parameters
         :param driver: webdriver instance
         :param firstname: user firstname
-        :param lastname: user firstname
+        :param lastname: user lastname
         :param pesel: user PESEL number
-        :param email: user email adress
-        :param phone_nubmer: user phone number
+        :param email: user email address
+        :param phone_number: user phone number
         :param login: user login
         :param password: user password
          ...
